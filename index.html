@@ -8,6 +8,15 @@
                 color: white;
                 font-family: "Times New Roman";
             }
+            .bebopList {
+                position:relative;
+                left: -10px;
+            }
+
+            .recipesLink {
+                position:relative;
+                left:600px;
+            }
 
         </style>
     </head>
@@ -15,13 +24,27 @@
     <body>
     <header>
     <h1 style="color:red; font-size: 50px; position:relative; left:15px"> Welcome to the testing site </h1>
+
+        <!--
+        Making button to redirect to another page, for recipes.
+        -->
+        <form class="recipesLink" action="recipes.html">
+            <input type="submit" value="Recipes">
+
+        </form>
+
+        <form class="recipesLink" action="recipes.html">
+            <button onclick="window.location='recipes.html'"> RECIPES BUTTON </button>
+
+        </form>
+
     </header>
     <a href="https://en.wikipedia.org/wiki/Cowboy_Bebop" target="_blank"><img id="bebop-image" src="https://ctl.s6img.com/society6/img/TiWe1K1DfbneOzZ-fU1KWgtAxd8/w_1500/coffee-mugs/swatch/~artwork,fw_4601,fh_1998,fx_-1449,fy_-2375,iw_7100,ih_7100/s6-original-art-uploads/society6/uploads/misc/452ff72725a0458aa1e1b87f0c11b63f/~~/cowboy-bebop-see-you-space-cowboy-mugs.jpg"
                      alt="Cowboy bebop, Space cowboy" width="600" height="auto"></a>
         <div>
             <h2>I'm hosting my own website with GitHub pages.</h2>
             <h4><b>Reasons why cowboy bebop is awesome:</b></h4>
-            <ul>
+            <ul class="bebopList">
                 <li>Its self contained</li>
                 <li>Its a short commitment</li>
                 <li>The characters are amazing</li>
