@@ -1,0 +1,43 @@
+
+header {
+/*    position: sticky; */
+    background-color: black;
+    color: white;
+    text-align:center;
+    padding: 20px;
+}
+body {
+    margin: 0px;
+    
+
+    background: linear-gradient(0deg, hsl(170, 50%, 80%), hsl(170, 80%, 50%));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    text-align: right;
+    list-style: none;
+    background-color: hsl(0, 0%, 20%);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 15px;
+}
+
+ul li{
+    display: inline;
+
+}
+.navItems {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a { 
+    color: white;
+    text-decoration: none;
+    display: inline;
+    padding: 2em;
+    margin: -2em;
+
+}
