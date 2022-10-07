@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--body-background-color);
+
+}
+:root {
+    --primary-color: hsl(272, 84%, 45%);
+    --nav-background: hsl(173, 10%, 40%);
+    --nav-text: hsl(173, 20%, 100%);
+    --nav-hover-text: hsl(173, 80%, 70%);
+    --body-background-color: hsl(222, 24%, 32%);
+}
+nav {
+    background-color: var(--nav-background);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    
+}
+nav li a {
+    display: inline-block;
+    padding: .8rem 1.3rem;  
+    text-decoration: none;
+    color: var(--nav-text);
+    border-bottom: .2rem solid transparent;
+
+}
+/* nav li {
+
+} */
+nav a:hover {
+    color: var(--nav-hover-text);
+    border-bottom: .2rem solid var(--nav-hover-text);
+    /* text-decoration: underline;
+    text-underline-offset: .9rem;
+    text-decoration-thickness: .2rem; */
+
+}
+#name {
+    margin-top: 6rem;
+    text-align: center;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: var(--nav-text);
+}
+#name-header {
+    text-align: center;
+    color: var(--nav-text);
+}
